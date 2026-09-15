@@ -1,7 +1,3 @@
-// File: tb_ring_vs_johnson.v
-// Runs BOTH counters simultaneously
-// Proves N states vs 2N states side-by-side
-
 `timescale 1ns/1ps
 
 module tb_ring_vs_johnson;
