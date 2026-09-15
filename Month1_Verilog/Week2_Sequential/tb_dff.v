@@ -48,7 +48,6 @@ module tb_dff;
 
     // Print every time any signal changes
     always @(posedge clk or posedge rst)
-        $display("%40t | %b   %b   %b  %b |    %b       %b       %b",
-                   $time, clk, rst, en, d, q_async, q_sync, q_enable);
+        $display("%40t | %b   %b   %b  %b |    %b       %b       %b",$time, clk, rst, en, d, q_async, q_sync, q_enable);
 
 endmodule
